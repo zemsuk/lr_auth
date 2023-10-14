@@ -1,0 +1,25 @@
+{
+    "name": "zems/zems_auth",
+    "description": "Laravel ZemsAuth package by zems team",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zems\\ZemsAuth\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zems",
+            "email": "support@zems.uk",
+            "homepage": "https://zems.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": ["Zems\\ZemsAuth\\ZemsAuthProvider"]
+        }
+    }
+}
