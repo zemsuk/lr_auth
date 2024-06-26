@@ -13,9 +13,9 @@ class LrAuthProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->LoadViewsFrom(__DIR__.'/views', 'zems_auth');
-        $this->app->singleton(AuthController::class, function(){
-            return new AuthController();
+        $this->LoadViewsFrom(__DIR__.'/views', 'lr_auth');
+        $this->app->singleton(ZemsAuth::class, function(){
+            return new ZemsAuth();
         });
     }
 
