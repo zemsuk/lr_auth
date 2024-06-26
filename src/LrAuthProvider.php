@@ -1,10 +1,10 @@
 <?php
 
-namespace Zems\ZemsAuth;
+namespace Zems\LrAuth;
 
 use Illuminate\Support\ServiceProvider;
 
-class ZemsAuthProvider extends ServiceProvider
+class LrAuthProvider extends ServiceProvider
 {
     /**
      * Register services.
