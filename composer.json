@@ -1,11 +1,11 @@
 {
-    "name": "zems/zems_auth",
+    "name": "zems/lr_auth",
     "description": "Laravel ZemsAuth package by zems team",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Zems\\ZemsAuth\\": "src/"
+            "Zems\\LrAuth\\": "src/"
         }
     },
     "authors": [
@@ -19,7 +19,7 @@
     "require": {},
     "extra": {
         "laravel": {
-            "providers": ["Zems\\ZemsAuth\\ZemsAuthProvider"]
+            "providers": ["Zems\\LrAuth\\LrAuthProvider"]
         }
     }
 }
